@@ -1,62 +1,56 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Laravel User Management System with Social Login and Admin Panel
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Description
 
-## About Laravel
+This application is a PHP Laravel based “User Management” web application for frontend and admin panel.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+It is secured and fully responsive. It allows frontend users to register and log-in using email addresses or social media providers such as (Facebook, Google, Twitter, Linkedin, Github). Users can also reset his/her password.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+On the Admin side, It has an interactive admin Dashboard with all data visualization charts.
+Admin can manage user's account and also can active/inactive user account.
+Admin can also create another admin. It has functionalities to manage Email settings, Social media provider settings and General settings. Easy to install.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## How to install?
+Step 1: Simpely download the repository or clone the repository to your local machine.
 
-## Learning Laravel
+Step 2: Create Database and import [Database](https://github.com/jd-patel/user-management/blob/master/user-management.sql).
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Step 3: Change Database credentials in ".env" file
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Step 4: Run in browser
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Featuers?
+## Main Features:
+- Built with Laravel 8 and Bootstrap 4
+- Secure user registration and login
+- Interactive admin Dashboard
+- Fully secured with server-side validation
+- Used Laravel built-in CSRF token system
+- Easy to install and customizable
 
-### Premium Partners
+## Frontend:
+- Registration using the email address or social media
+- Login using email or password with remember me or login with social media
+- Reset password
+- Redirect non-login user to login page
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
+## Admin Panel:
+- Major data visualization on admin dashboard
+- Manage frontend users
+- Activate/Inactive user accounts
+- View user’s extra information such as Browser, Browser version, Platform (OS),     IP Address, Last login date and time and Last login type (Website, Facebook, etc.)
+- Manage admin users (CRUD)
+- Manage social authentication (Facebook, Google, Twitter, Linkedin, Github)
+- Enable/disable social authentication for each provider
+- Manage social authentication display order
+- Manage email settings
+- Manage Site name from admin panel
+- Responsive admin panel
 
-## Contributing
+##PHP Version Required:
+- PHP >= 7.3
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Create your Client ID & Client Secret for Social Accounts, Please refer to [Laravel Social Login](https://github.com/jd-patel/laravel-social-login)
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Happy Coding!!!
