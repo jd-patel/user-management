@@ -1,0 +1,11 @@
+.was-validated .custom-select:valid {
+  background-image: none;
+}
+
+.was-validated .custom-select:invalid {
+  background-image: none;
+}
+
+.was-validated .form-control:invalid, .form-control.is-invalid{
+	background-image: none;
+}
