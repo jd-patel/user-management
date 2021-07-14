@@ -19,8 +19,6 @@ Step 3: Change Database credentials in ".env" file
 
 Step 4: Run in browser
 
-
-## Featuers?
 ## Main Features:
 - Built with Laravel 8 and Bootstrap 4
 - Secure user registration and login
@@ -48,7 +46,7 @@ Step 4: Run in browser
 - Manage Site name from admin panel
 - Responsive admin panel
 
-##PHP Version Required:
+## PHP Version Required:
 - PHP >= 7.3
 
 ## Create your Client ID & Client Secret for Social Accounts, Please refer to [Laravel Social Login](https://github.com/jd-patel/laravel-social-login)
